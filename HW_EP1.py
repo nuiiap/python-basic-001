@@ -4,6 +4,8 @@ tao = tl.Pen()
 tao.shape('turtle')
 x=0;y=0;
 color="red"
+tao.width(4)
+
 for i in range (5):
     if i==0:
         x=100
@@ -19,7 +21,7 @@ for i in range (5):
         color="black"
     else:
         y=0;x=0
-        color="pink"
+        color="yellow"
     tao.penup()
     tao.goto(x,y)
     tao.pendown()
